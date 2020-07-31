@@ -1,0 +1,1 @@
+SELECT title, rating FROM movies, ratings ON id = movie_id EXCEPT SELECT title, rating FROM movies, ratings ON id = movie_id WHERE rating = NULL ORDER BY rating DESC, title;

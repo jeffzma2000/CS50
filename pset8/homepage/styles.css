@@ -1,0 +1,28 @@
+.center {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+.center1 {
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding-top: 5ex;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+h2 {
+    color: blue;
+}

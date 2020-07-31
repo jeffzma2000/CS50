@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}Profile{% endblock %}
+
+{% block main %}
+<h1>Change Password</h1>
+<form action="/profile" method="POST">
+    <input type="text" placeholder="password" name="password">
+    <p></p>
+    <input type="text" placeholder="confirmation" name="confirmation">
+    <p></p>
+    <button class="btn btn-primary" type="submit">Change Password</button>
+</form>
+{% endblock %}
